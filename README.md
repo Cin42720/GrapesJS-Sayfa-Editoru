@@ -155,15 +155,11 @@ Grape.js/
 | `grapesjs-typed` | Yazı animasyonu bileşeni |
 | `grapesjs-style-gradient` | Gradient arka plan stil girişi |
 
-## 🛣️ Yol Haritası
+## Notlar
 
-- [ ] Kullanıcı girişi ve yetkilendirme sistemi
-- [ ] Dosya/görsel yükleme için medya yöneticisi entegrasyonu
-- [ ] Sürüm geçmişi ve geri alma desteği
-- [ ] Hazır tema ve şablon kütüphanesi
-- [ ] Mevcut sitenin header/footer yapısına sunucu tarafında gömülü yayınlama
-- [ ] Çoklu dil desteği (i18n)
-- [x] Sayfa dışa aktarma (HTML dosyası olarak indirme)
+- Varsayılan kayıt modu dosyadır; `storage/pages` klasörü çalışma sırasında JSON kayıtları için kullanılır.
+- Örnek ana sayfa şablonu uygulama ilk açıldığında hazır gelir ve editör üzerinden değiştirilebilir.
+- MySQL modu için `.env` dosyasındaki bağlantı bilgileri doldurulmalıdır.
 
 ## 📜 Lisans
 
