@@ -1,0 +1,6 @@
+node_modules/
+.env
+storage/pages/*.json
+!storage/pages/.gitkeep
+artifacts/
+*.log

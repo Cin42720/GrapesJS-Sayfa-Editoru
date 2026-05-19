@@ -1,0 +1,25 @@
+{
+  "name": "grapesjs-page-editor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GrapesJS tabanlı basit web sayfası düzenleyici ve kayıt API'si.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grapesjs": "^0.22.5",
+    "grapesjs-blocks-basic": "^1.0.2",
+    "grapesjs-component-countdown": "^1.0.2",
+    "grapesjs-plugin-forms": "^2.0.6",
+    "grapesjs-preset-webpage": "^1.0.3",
+    "grapesjs-style-gradient": "^3.0.3",
+    "grapesjs-tabs": "^1.0.6",
+    "grapesjs-tooltip": "^0.1.8",
+    "grapesjs-typed": "^2.0.1",
+    "mysql2": "^3.11.5"
+  }
+}
