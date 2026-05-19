@@ -2,7 +2,7 @@
 
 Modern, sürükle-bırak tabanlı web sayfası düzenleyicisi. GrapesJS altyapısı üzerine inşa edilmiş, koyu temalı premium arayüzü ile sayfalarınızı kolayca tasarlayın, kaydedin ve yayınlayın.
 
-## ✨ Özellikler
+## Özellikler
 
 ### Düzenleyici
 - **Sürükle & Bırak** – Hazır blokları sürükleyerek sayfa oluşturma
@@ -43,7 +43,7 @@ Modern, sürükle-bırak tabanlı web sayfası düzenleyicisi. GrapesJS altyapı
 | Veritabanı MySQL veya dosya olarak kayıt | Karşılandı | Varsayılan `file` sürücüsü `storage/pages` altına JSON kaydeder; `STORAGE_DRIVER=mysql` ile MySQL sürücüsü kullanılır. |
 | Birden fazla sayfa yönetimi | Karşılandı | Sayfa listesi, yeni sayfa oluşturma ve silme API/arayüz üzerinden desteklenir. |
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### Gereksinimler
 - [Node.js](https://nodejs.org/) v18 veya üzeri
@@ -69,7 +69,7 @@ Sunucu başlatıldıktan sonra tarayıcınızda açın:
 - **Düzenleyici:** `http://localhost:3000`
 - **Önizleme:** `http://localhost:3000/p/anasayfa`
 
-## ⚙️ Ortam Değişkenleri
+## Ortam Değişkenleri
 
 `.env` dosyasını `.env.example` dosyasından kopyalayarak oluşturun ve ihtiyacınıza göre düzenleyin:
 
@@ -95,7 +95,7 @@ MYSQL_USER=root
 MYSQL_PASSWORD=sifreniz
 ```
 
-## 📡 API Uç Noktaları
+## API Uç Noktaları
 
 | Yöntem | Adres | Açıklama |
 |--------|-------|----------|
@@ -119,7 +119,7 @@ curl -X POST http://localhost:3000/api/pages/ornek-sayfa \
   }'
 ```
 
-## 🗂️ Proje Yapısı
+## Proje Yapısı
 
 ```
 Grape.js/
@@ -141,7 +141,7 @@ Grape.js/
 └── README.md
 ```
 
-## 🔌 Kullanılan Eklentiler
+## Kullanılan Eklentiler
 
 | Eklenti | Açıklama |
 |---------|----------|
@@ -161,6 +161,6 @@ Grape.js/
 - Örnek ana sayfa şablonu uygulama ilk açıldığında hazır gelir ve editör üzerinden değiştirilebilir.
 - MySQL modu için `.env` dosyasındaki bağlantı bilgileri doldurulmalıdır.
 
-## 📜 Lisans
+## Lisans
 
 Bu proje kişisel kullanım amaçlıdır.
